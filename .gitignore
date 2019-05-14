@@ -1,1 +1,5 @@
 Sources/.vs
+Sources/Debug
+Sources/Release
+Sources/LycorisServer/Debug
+Sources/LycorisServer/Release
