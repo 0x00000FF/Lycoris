@@ -4,7 +4,7 @@ namespace Lycoris
 {
 
 #ifdef _WIN32
-	static const char* configPath = "config.conf";
+	static const char* configPath = "lycoris.conf";
 #else
 	static const char* configPath = "/etc/lycoris.conf";
 #endif
