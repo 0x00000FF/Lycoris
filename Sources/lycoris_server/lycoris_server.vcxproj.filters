@@ -18,12 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LobbyServer.cpp">
+    <ClCompile Include="lycoris_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LobbyServer.h">
+    <ClInclude Include="lycoris_server.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
