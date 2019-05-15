@@ -37,9 +37,6 @@ namespace lycoris
         }
 
         parse_configuration(config_file);
-        begin_accept();
-
-        while (true);
         return (this->m_exec_result == 0);
     }
 
@@ -57,18 +54,12 @@ namespace lycoris
 
     void lobby_server::begin_accept()
     {
-        auto empty_socket = new tcp_socket(*m_io_context);
-        m_acceptor.async_accept(
-            *empty_socket,
-            std::bind(&lobby_server::handle_accept, this,
-                empty_socket, std::placeholders::_1)
-        );
+
     }
 
+    // tcp_socket* parameter will be replaced with shared_ptr<lycoris::tcp_connection>
     void lobby_server::handle_accept(tcp_socket* socket, const asio::error_code&)
     {
-        std::puts("connection successful");
 
-        begin_accept();
     }
 }
