@@ -18,12 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lycoris_server.cpp">
+    <ClCompile Include="lycoris_config.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lycoris_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lobby_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lycoris_server.hpp">
+    <ClInclude Include="lobby_server.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,8 @@
 #include <asio/io_context.hpp>
 #include <iostream>
 
-#include "lycoris_server.hpp"
+#include "lobby_server.hpp"
+#include "lycoris_config.hpp"
 
 int main()
 {
@@ -17,6 +18,8 @@ int main()
         return -1;
     }
 
-    lycoris::lobby_server server(io, 5000);
+    lycoris::lycoris_config config;
+    lycoris::lobby_server server(io, config, 5000);
+
     return server.exec_result();
 }

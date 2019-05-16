@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lycoris_server.cpp" />
+    <ClCompile Include="lycoris_config.cpp" />
+    <ClCompile Include="lycoris_config.hpp" />
+    <ClCompile Include="lobby_server.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lycoris_server.hpp" />
+    <ClInclude Include="lobby_server.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
