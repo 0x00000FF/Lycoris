@@ -1,5 +1,3 @@
 Sources/.vs
-Sources/Debug
-Sources/Release
-Sources/lycoris_server/Debug
-Sources/lycoris_server/Release
+Sources/LycorisServer.Core/bin
+Sources/LycorisServer.Core/obj
